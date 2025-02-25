@@ -11,7 +11,6 @@ export default function CTABanner() {
           numSquares={30}
           maxOpacity={0.1}
           duration={3}
-          repeatDelay={1}
           className={cn(
             "[mask-image:radial-gradient(400px_circle_at_right,white,rgba(255,255,255,0.6),transparent)]",
             "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12"
@@ -21,7 +20,6 @@ export default function CTABanner() {
           numSquares={30}
           maxOpacity={0.1}
           duration={3}
-          repeatDelay={1}
           className={cn(
             "[mask-image:radial-gradient(400px_circle_at_top_left,white,rgba(255,255,255,0.6),transparent)]",
             "inset-x-0 inset-y-0 h-[200%] skew-y-12"
