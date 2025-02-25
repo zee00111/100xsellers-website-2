@@ -12,7 +12,7 @@ const Hero = () => {
           <Badge className="bg-primary rounded-full py-1 border-none">
             v1.0.0 is available now! 🚀
           </Badge>
-          <h1 className="mt-6 max-w-[20ch] text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
+          <h1 className="mt-6 max-w-[20ch] text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.2]! tracking-tight">
             Customized Shadcn UI Blocks & Components
           </h1>
           <p className="mt-6 max-w-[60ch] xs:text-lg">
@@ -25,14 +25,14 @@ const Hero = () => {
               size="lg"
               className="w-full sm:w-auto rounded-full text-base"
             >
-              Get Started <ArrowUpRight className="!h-5 !w-5" />
+              Get Started <ArrowUpRight className="h-5! w-5!" />
             </Button>
             <Button
               variant="outline"
               size="lg"
               className="w-full sm:w-auto rounded-full text-base shadow-none"
             >
-              <CirclePlay className="!h-5 !w-5" /> Watch Demo
+              <CirclePlay className="h-5! w-5!" /> Watch Demo
             </Button>
           </div>
         </div>
