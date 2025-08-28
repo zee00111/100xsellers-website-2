@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, CirclePlay } from "lucide-react";
 import React from "react";
-import LogoCloud from "./logo-cloud";
+// import LogoCloud from "./logo-cloud";
 
 const Hero = () => {
   return (
@@ -10,15 +10,13 @@ const Hero = () => {
       <div className="md:mt-6 flex items-center justify-center">
         <div className="text-center max-w-2xl">
           <Badge className="bg-primary rounded-full py-1 border-none">
-            v1.0.0 is available now! 🚀
+            new Updates ! 🚀
           </Badge>
           <h1 className="mt-6 max-w-[20ch] text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
-            Customized Shadcn UI Blocks & Components
+           100xSellers Powering Your Amazon Selling journey
           </h1>
           <p className="mt-6 max-w-[60ch] xs:text-lg">
-            Explore a collection of Shadcn UI blocks and components, ready to
-            preview and copy. Streamline your development workflow with
-            easy-to-implement examples.
+          Scale Smarter. Sell Bigger. Go Beyond Amazon with 100xSellers.
           </p>
           <div className="mt-12 flex flex-col sm:flex-row items-center sm:justify-center gap-4">
             <Button
@@ -32,12 +30,12 @@ const Hero = () => {
               size="lg"
               className="w-full sm:w-auto rounded-full text-base shadow-none"
             >
-              <CirclePlay className="!h-5 !w-5" /> Watch Demo
+              <CirclePlay className="!h-5 !w-5" />Get Tools
             </Button>
           </div>
         </div>
       </div>
-      <LogoCloud className="mt-24 max-w-3xl mx-auto" />
+      {/* <LogoCloud className="mt-24 max-w-3xl mx-auto" /> */}
     </div>
   );
 };
